@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="vi-en">
+<head>
+	<title>ai 20 thế nhỉ?</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="banner">
+		<div class="clouds">
+			<img src="cloud1.png" style="--i:1;">
+			<img src="cloud2.png" style="--i:2;">
+			<img src="cloud3.png" style="--i:3;">
+			<img src="cloud4.png" style="--i:4;">
+			<img src="cloud5.png" style="--i:5;">
+			<img src="cloud1.png" style="--i:10;">
+			<img src="cloud2.png" style="--i:9;">
+			<img src="cloud3.png" style="--i:8;">
+			<img src="cloud4.png" style="--i:7;">
+			<img src="cloud5.png" style="--i:6;">
+		</div> 
+	</div>
+	<audio id="myAudio">
+	 	<source src="Track.mp3" type="audio/mpeg">
+	  		Your browser does not support the audio element.
+	</audio>
+	<div style="text-align: center;"><button onclick="playAudio()" style="margin-top: 50px;">Play Music</button></div>
+	
+	<script>
+		var x = document.getElementById("myAudio"); 
+
+		function playAudio() { 
+  			x.play(); 
+		} 
+	</script>
+	<section>
+		<h2>Chúc mừng sinh nhật Quỳnh Như</h2>
+		<p>
+		Hehe, một sản phẩm vội vàng và hơi xấu xí nhưng đây là tấm lòng của Tùn và anh chàng Khởi gửi cho cô nèng qnhu nhé!!
+		QNhu sinh ra sớm qua hơn mình cả 10 tháng luôn nhưng mà cũng còn nhỏ lắm (có thể nói là 0 có tuổi) nhưng mà
+		trái tim thì 0 hề nhỏ nhé - super big big heart luôn! Hy vọng mình vẫn cứ mãi có thể là những anh em chí cốt cho đến sau này nhé!!!
+		Chúc cô nèng luôn xinh xắn, dễ thương, học hỏi và khám phá được nhiều điều mới khi bước qua 20 nhaa!
+
+		</p>
+	</section>
+	<script type="text/javascript">
+		let text = document.getElementById('text');
+		window.addEventListener('scroll' , function(){
+			let value = window.scrollY;
+			text.style.marginBottom = value * 2 + 'px';
+		})
+	</script>
+	<div style="text-align: center;"><button onclick="document.location='ListImage.html'">Đọc xong rùi thì ấn vào đây!</button></div>
+</body>
+</html>
